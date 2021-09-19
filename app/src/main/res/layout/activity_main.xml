@@ -15,67 +15,106 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <ImageView
-            android:id="@+id/imageView8"
+        <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:translationX="518sp"
-            android:translationY="195sp"
-            app:srcCompat="@drawable/domino_highlight"
-            tools:ignore="ImageContrastCheck" />
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginBottom="20sp">
 
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:translationX="518sp"
-            android:translationY="520sp"
-            app:srcCompat="@drawable/domino_highlight"
-            tools:ignore="ImageContrastCheck" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center_vertical">
-
-            <ImageView
-                android:id="@+id/highlight1"
+            <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:minWidth="163sp"
-                android:rotation="90"
-                app:srcCompat="@drawable/domino_highlight" />
+                android:layout_gravity="center">
 
-            <ImageView
-                android:id="@+id/double3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="double3"
-                app:srcCompat="@drawable/doubledomino_3" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
 
-            <ImageButton
-                android:id="@+id/domino5_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#00FFFFFF"
-                android:contentDescription="domino3_5"
-                android:minWidth="163sp"
-                android:rotation="-90"
-                app:srcCompat="@drawable/domino5_3" />
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/domino_highlight"
+                    tools:ignore="ImageContrastCheck" />
 
-            <ImageButton
-                android:id="@+id/dominodouble5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:adjustViewBounds="false"
-                android:backgroundTint="#00FFFFFF"
-                android:contentDescription="5 Double"
-                android:minWidth="163sp"
-                android:rotation="90"
-                app:srcCompat="@drawable/doubledomnio5" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
 
-        </LinearLayout>
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/highlight1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="163sp"
+                    android:rotation="90"
+                    app:srcCompat="@drawable/domino_highlight" />
+
+                <ImageView
+                    android:id="@+id/double3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="double3"
+                    app:srcCompat="@drawable/doubledomino_3" />
+
+                <ImageButton
+                    android:id="@+id/domino3_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="domino3_5"
+                    android:minWidth="163sp"
+                    android:rotation="-90"
+                    app:srcCompat="@drawable/domino5_3" />
+
+                <ImageButton
+                    android:id="@+id/dominodouble5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="5 Double"
+                    android:minWidth="163sp"
+                    android:rotation="90"
+                    app:srcCompat="@drawable/doubledomnio5" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="highlight"
+                    app:srcCompat="@drawable/domino_highlight"
+                    tools:ignore="ImageContrastCheck" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+        </TableLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
