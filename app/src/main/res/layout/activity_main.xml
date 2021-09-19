@@ -26,24 +26,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center">
 
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
 
                 <ImageView
                     android:id="@+id/imageView8"
+                    android:layout_column="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/domino_highlight"
                     tools:ignore="ImageContrastCheck" />
-
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
 
             </TableRow>
 
@@ -93,25 +83,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
 
                 <ImageView
                     android:id="@+id/imageView9"
+                    android:layout_column="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="highlight"
                     app:srcCompat="@drawable/domino_highlight"
                     tools:ignore="ImageContrastCheck" />
-
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
             </TableRow>
 
         </TableLayout>
