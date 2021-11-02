@@ -16,7 +16,8 @@
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#048181" />
+
+            android:background="@drawable/wood" />
 
         <TableLayout
             android:layout_width="wrap_content"
@@ -108,38 +109,28 @@
             android:paddingEnd="5sp">
 
             <Button
+                android:id="@+id/helpButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/black"
+                android:text="help" />
+
+            <Button
                 android:id="@+id/newGame"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/black"
                 android:text="New Game" />
 
             <Button
                 android:id="@+id/quitGame"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/black"
                 android:text="Quit Game" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:orientation="vertical"
-            android:paddingStart="5sp"
-            android:paddingEnd="5sp">
-
-            <Button
-                android:id="@+id/rotateCW"
-                android:layout_width="match_parent"
-                android:layout_height="90sp"
-                android:text="Rotate CW" />
-
-            <Button
-                android:id="@+id/rotateCCW"
-                android:layout_width="match_parent"
-                android:layout_height="90sp"
-                android:text="Rotate CCW" />
 
         </LinearLayout>
 
@@ -166,6 +157,20 @@
                 android:text="Player 2 Score: 0"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp" />
+            <TextView
+                android:id="@+id/Player_3_Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player 3 Score: 0"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/Player_4_Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player 4 Score: 0"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -180,7 +185,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Your Dominoes:"
-                android:textColor="#FFFFFF"
+                android:textColor="#FFEB3B"
                 android:textSize="24sp" />
 
             <LinearLayout
